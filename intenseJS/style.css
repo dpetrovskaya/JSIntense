@@ -49,6 +49,12 @@ h1, h2, p{
     border-style: solid;
 }
 
+#MyGame {
+    color: rgb(41, 40, 44);
+    text-align: center;
+    justify-content: center;
+}
+
 button {
     width: 150px;
  	border-style: none;
