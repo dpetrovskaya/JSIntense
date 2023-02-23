@@ -1,3 +1,7 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
 h1, h2, p{
     color: rgb(41, 40, 44);
     text-align: center;
@@ -5,19 +9,19 @@ h1, h2, p{
 }
 
 #blue_btn {
-    background-color: rgb(60, 60, 230);
+    background-color: #006c84;
 }
 
 #red_btn {
-    background-color: rgb(233, 62, 62);
+    background-color: #ffccbb;
 }
 
 .bluetext {
-    color: blue;
+    color: #006c84;
 }
 
 .redtext {
-    color: red;
+    color: #ffccbb;
 }
 
 #chooser {
@@ -37,15 +41,18 @@ h1, h2, p{
 .chooser > div {
     width: 150px;
     height: 200px;
+    box-sizing: border-box;
     display: flex;
-    background-color: deepskyblue;
+    background-color:#6eb5c0;
     justify-content: center;
     align-items: center;
+    color: #e2e8e4;
 }
 
 .choosed_element {
-    border-color:coral;
-    border: 1px;
+    border-color:#ffccbb;
+    border: 3px;
+    border-color: #006c84;
     border-style: solid;
 }
 
@@ -53,6 +60,7 @@ h1, h2, p{
     color: rgb(41, 40, 44);
     text-align: center;
     justify-content: center;
+   
 }
 
 button {
@@ -68,4 +76,56 @@ button {
 	text-transform: lowercase;
 	text-decoration: none;
     
+}
+
+.blog-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 10px;
+}
+
+.blog-container p{
+    text-align: left;
+    background-color: #e2e8e4;
+    padding: 10px;
+}
+
+.blog button {
+    border: 1px;
+    background-color: #ffccbb;
+    
+}
+
+.blog-container h3{
+    color:#006c84;
+}
+
+header {
+    background-color:#6eb5c0;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav {
+    height: inherit;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav > a {
+    color: #006c84;
+    text-decoration: none;
+    
+}
+nav > a:hover {
+    color: #ffccbb;
+ 
+}
+
+main {
+    margin-top: 100px;
 }

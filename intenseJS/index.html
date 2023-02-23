@@ -1,27 +1,38 @@
 <!DOCTYPE html>
 <html lang="ru">
-    
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" >
+    <link rel="stylesheet" href="style.css">
     <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/169/169367.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap">
     <title>My JS</title>
 </head>
+
 <body>
-   <h1> Калькулятор</h1> 
-   <span id="test"> </span>
-   <main>
-       <div id="MyGame">
+    <header>
+        <nav>
+            <a href="#test">Calculator</a>
+            <a href="#chooser">Selector</a>
+            <a href="#blog">Blog</a>
+        </nav>
+    </header>
+
+    <main>
+    <h1> Калькулятор</h1>
+    <p id="test"> Введите арифметическое выражение, например "12+69*15" </p>
+    
+        <div id="MyGame">
             <input type="text" id="calc">
             <br>
             <button id="calc_btn">Let's CALC!</button> <br>
-             Ответ: <span id="answer"></span> <br/>
-            <p>Покрасим заголовки: </p>
-            <button id="blue_btn">Blue</button> 
-            <button id="red_btn">Red</button> 
-            <br/>
+            Ответ: <span id="answer"></span> <br />
+            <p>Покрасим заголовок: </p>
+            <button id="blue_btn">Blue</button>
+            <button id="red_btn">Rose</button>
+            <br />
         </div>
         <div id="chooser">
             <h2>Выбиралка</h2>
@@ -41,8 +52,17 @@
                 <div>12</div>
             </div>
         </div>
+        <div class="blog" id="blog">
+            <h2>BLOG</h2>
+            <p>
+                <button>Show posts!</button>
+            </p>
+            <div class="blog-container">
+                
+            </div>
+        </div>
     </main>
-        <script src="./code.js"></script>
+    <script src="./code.js"></script>
 </body>
 
 </html>
